@@ -3,9 +3,9 @@
 
 [![Build Status](https://travis-ci.org/memowe/Mojo-ServeDir.svg?branch=master)](https://travis-ci.org/memowe/Mojo-ServeDir)
 
-Helper module to serve files from a given directory via
+Helper module to serve files from the current working directory
 
-    $ perl -Mojo::ServeDir -e 'serve("foo/bar")'
+    $ perl -Mojo::ServeDir
 
 INSTALLATION
 ------------

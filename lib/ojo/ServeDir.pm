@@ -23,7 +23,7 @@ Version 0.01
 
 =head1 SYNOPSIS
 
-    $ perl -Mojo::ServeDir -e 'serve("foo/bar")'
+    $ perl -Mojo::ServeDir
 
 =head1 AUTHOR
 
