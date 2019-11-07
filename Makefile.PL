@@ -13,12 +13,13 @@ my %WriteMakefileArgs = (
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => '0',
     },
-    TEST_REQUIRES => {
-        'Test::More' => '0',
-    },
     PREREQ_PM => {
         Mojolicious => '8.0',
     },
+    META_MERGE => {resources => {
+        bugtracker => 'https://github.com/memowe/Mojo::ServeDir',
+        repository => 'https://github.com/memowe/Mojo::ServeDir',
+    }},
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'ojo-ServeDir-*' },
 );
