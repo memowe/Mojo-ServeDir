@@ -9,7 +9,7 @@ use ojo;
 our $VERSION = '0.02';
 
 sub import {
-    push @{app->static->paths}, app->home->rel_file('.');
+    app->static->paths([app->home->rel_file('.')]);
     app->start('daemon');
 }
 
