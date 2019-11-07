@@ -25,6 +25,11 @@ perldoc command.
 
     perldoc ojo::ServeDir
 
+CONTRIBUTORS
+------------
+
+- Mohammad S Anwar
+
 LICENSE AND COPYRIGHT
 ---------------------
 

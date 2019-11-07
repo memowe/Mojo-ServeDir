@@ -29,6 +29,14 @@ Version 0.01
 
     $ perl -Mojo::ServeDir
 
+=head1 CONTRIBUTORS
+
+=over 4
+
+=item Mohammad S Anwar
+
+=back
+
 =head1 AUTHOR
 
 Mirko Westermeier, C<< <mirko at westermeier.de> >>
