@@ -13,6 +13,10 @@ sub import {
     app->start('daemon');
 }
 
+1;
+
+__END__
+
 =head1 NAME
 
 ojo::ServeDir - Helper module to serve local files
@@ -34,7 +38,3 @@ Mirko Westermeier, C<< <mirko at westermeier.de> >>
 This software is Copyright (c) 2019 by Mirko Westermeier.
 
 Released under the MIT (X11) license. See LICENSE for details.
-
-=cut
-
-1; # End of ojo::ServeDir
