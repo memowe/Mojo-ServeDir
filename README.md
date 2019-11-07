@@ -1,6 +1,8 @@
 (M)ojo::ServeDir
 ================
 
+[![Build Status](https://travis-ci.org/memowe/Mojo-ServeDir.svg?branch=master)](https://travis-ci.org/memowe/Mojo-ServeDir)
+
 Helper module to serve files from a given directory via
 
     $ perl -Mojo::ServeDir -e 'serve("foo/bar")'
