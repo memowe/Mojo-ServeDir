@@ -6,7 +6,7 @@ use warnings FATAL => 'all';
 
 use ojo;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub import {
     push @{app->static->paths}, app->home->rel_file('.');
