@@ -30,7 +30,7 @@ Module import interface:
 
 Command interface:
 
-    $ serve_dir OPTIONS
+    $ serve_dir DIRECTORY_NAME OPTIONS
 
 The directory name is optional (default is the current working directory), options go directly to Mojo's C<daemon> command.
 
