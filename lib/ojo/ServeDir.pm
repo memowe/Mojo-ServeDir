@@ -1,16 +1,13 @@
 package ojo::ServeDir;
 
-use 5.020;
 use strict;
 use warnings FATAL => 'all';
-
-use ojo;
+use ojo::ServeDir::App;
 
 our $VERSION = '0.02';
 
 sub import {
-    app->static->paths([app->home->rel_file('.')]);
-    app->start('daemon');
+    ojo::ServeDir::App->new->start('daemon');
 }
 
 1;
@@ -26,6 +23,8 @@ ojo::ServeDir - Helper module to serve local files
 Version 0.02
 
 =head1 SYNOPSIS
+
+Module import interface:
 
     $ perl -Mojo::ServeDir
 

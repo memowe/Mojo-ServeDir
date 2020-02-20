@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
     }},
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'ojo-ServeDir-*' },
+    test  => {TESTS => 't/*.t'},
 );
 
 # Compatibility with old versions of ExtUtils::MakeMaker
