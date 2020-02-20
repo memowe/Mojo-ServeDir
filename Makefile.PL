@@ -20,6 +20,7 @@ my %WriteMakefileArgs = (
         bugtracker => 'https://github.com/memowe/Mojo-ServeDir/issues',
         repository => 'https://github.com/memowe/Mojo-ServeDir',
     }},
+    EXE_FILES => ['script/serve_dir'],
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'ojo-ServeDir-*' },
     test  => {TESTS => 't/*.t'},

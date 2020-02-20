@@ -28,6 +28,12 @@ Module import interface:
 
     $ perl -Mojo::ServeDir
 
+Command interface:
+
+    $ serve_dir OPTIONS
+
+The directory name is optional (default is the current working directory), options go directly to Mojo's C<daemon> command.
+
 =head1 CONTRIBUTORS
 
 =over 4
