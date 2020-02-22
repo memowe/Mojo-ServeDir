@@ -41,7 +41,7 @@ CONTRIBUTORS
 LICENSE AND COPYRIGHT
 ---------------------
 
-This software is Copyright (c) 2019 by [Mirko Westermeier][mirko] ([\@memowe][mgh], [mirko@westermeier.de][mmail]).
+This software is Copyright (c) by [Mirko Westermeier][mirko] ([\@memowe][mgh], [mirko@westermeier.de][mmail]).
 
 Released under the MIT (X11) license. See [LICENSE][mit] for details.
 

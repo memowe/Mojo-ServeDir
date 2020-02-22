@@ -48,6 +48,6 @@ Mirko Westermeier, C<< <mirko at westermeier.de> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2019 by Mirko Westermeier.
+This software is Copyright (c) by Mirko Westermeier.
 
 Released under the MIT (X11) license. See LICENSE for details.
