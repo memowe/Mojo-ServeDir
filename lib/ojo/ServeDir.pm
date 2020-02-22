@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => 'all';
 use ojo::ServeDir::App;
 
-our $VERSION = '0.1';
+our $VERSION = '0.11';
 
 sub import {
     ojo::ServeDir::App->new->start('daemon');
