@@ -20,7 +20,7 @@ ojo::ServeDir - Helper module to serve local files
 
 =head1 VERSION
 
-Version 0.1
+Version 0.11
 
 =head1 SYNOPSIS
 
